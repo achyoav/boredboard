@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>BoredBoard - Sign-Up</title>
-        <link rel="stylesheet" href="signup.css">
+        <link rel="stylesheet" href="CSS/signup.css">
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
         <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
@@ -41,6 +41,16 @@
         <hr>
         <label for="email"><b>Email</b></label>
         <input type="text" placeholder="Enter Email" name="email" required="">
+
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required="">
+
+        <label for="nname"><b>Nickname</b></label>
+        <input type="text" placeholder="Enter Nickname" name="nname" required="">
+        
+        <label for="email"><b>Confirm Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required="">
+
       
         <label for="psw"><b>Password</b></label>
         <input type="password" placeholder="Enter Password" name="psw" required="" aria-autocomplete="list">
@@ -48,10 +58,16 @@
         <label for="psw-repeat"><b>Repeat Password</b></label>
         <input type="password" placeholder="Repeat Password" name="psw-repeat" required="">
         
-        <label for="gender"><b>Gender</b> </    `br>
+        <label for="gender"><b>Gender</b> </br>
         <input type="radio" name="gender" value="male"> Male
         <input type="radio" name="gender" value="female"> Female
-        <input type="radio" name="gender" value="other"> Other
+        <input type="radio" name="gender" value="other"> Other <br>
+
+        <label for="dob">Date of Birth</label> <br>
+        <input type="date" name="dob" id="dob"> <br>
+
+        <label for="security">Security Questions:</label> <br>
+        <input type="selct" name="security" id="security"> gname
 
         <div class="clearfix">
             <button type="submit" class="signupbtn">Sign Up</button>
