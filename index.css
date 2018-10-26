@@ -59,7 +59,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #00452e;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 li {
@@ -77,6 +77,3 @@ li a {
 li a:hover {
     background-color: #79471b;
 }
-</style>
-</head>
-<body>
