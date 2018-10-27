@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+    position: relative;
+    min-height: calc(100vh - 20px * 2);
+    background-color: #00452e;
+    border: 20px solid #79471b;
+    margin: 0;
+    font-family:'Indie Flower', cursive;
+}
+
+object {
+    width: 4rem;
+    display: block;
+    margin: 0 auto;
+    height: 4rem;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 4rem;
+    margin: 0.5rem auto;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+}
+
+h3{
+    margin: auto auto;
+    color: #00452e;
+    font-size: 1px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00452e;
+    font-size: 25px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #79471b;
+}
+
+li a.selected{
+    color: yellowgreen;
+  }
+
+li.right{
+    float: right;
+  }
+
+  button {
+    background-color: #79471b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  input[type=text], input[type=password] {
+    width: 98.5%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  
+  label{
+    color: #ffffff;
+  }
+  
+ 
+  
+  hr {
+    border: 0px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+
+  
+  b{
+    color: #ffffff;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+
+  
+  .container1 {
+    float: right;
+    padding:  10px;
+    background-color: brown;
+  }
+
+  
+ 
