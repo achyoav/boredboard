@@ -59,6 +59,10 @@ li {
   float: left;
 }
 
+li a.selected{
+  color: yellowgreen;
+}
+
 li a {
   display: block;
   color: white;
@@ -144,4 +148,7 @@ button:hover {
   .cancelbtn, .signupbtn {
     width: 100%;
   }
+}
+li.right{
+  float: right;
 }
