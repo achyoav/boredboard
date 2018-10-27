@@ -65,11 +65,18 @@
         <input type="radio" name="gender" value="female"> Female
         <input type="radio" name="gender" value="other"> Other <br>
 
-        <label for="dob">Date of Birth</label> <br>
+        <label for="dob"><b>Date of Birth</b></label> <br>
         <input type="date" name="dob" id="dob"> <br>
 
-        <label for="security">Security Questions:</label> <br>
-        <input type="selct" name="security" id="security"> gname
+        <label for="security"> <b>Security Questions </b> </label> <br>
+        <select>
+            <option disabled selected value="q"> Pick one </option>
+            <option value="q1">What's your lucky number?</option>
+            <option value="q2">What's the birth name of your grandmother?</option>
+            <option value="q3">What's your favorite color?</option>
+          </select>
+            
+        <input type="text" name="security" id="security"> 
 
         <div class="clearfix">
             <button type="submit" class="signupbtn">Sign Up</button>
