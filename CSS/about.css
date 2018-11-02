@@ -85,3 +85,33 @@ li a.selected{
   li.right{
     float: right;
   }
+
+  .vertical-menu {
+    width: 200px;
+    position: fixed;
+    top: 50%;
+    }
+            
+.vertical-menu a {
+    background-color:#79471b;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    
+}
+            
+.vertical-menu a:hover {
+    background-color:#00452e;
+}
+
+#menu {
+    width: 200px;
+    position: fixed;
+    top: 50%;
+  }
+            
+a{
+    color: #79471b;
+}
+
