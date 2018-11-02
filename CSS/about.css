@@ -89,12 +89,12 @@ li a.selected{
   .vertical-menu {
     width: 200px;
     position: fixed;
-    top: 50%;
+    top: 30%;
     }
             
 .vertical-menu a {
     background-color:#79471b;
-    color: black;
+    color: white;
     display: block;
     padding: 12px;
     text-decoration: none;
@@ -105,14 +105,18 @@ li a.selected{
     background-color:#00452e;
 }
 
-#menu {
-    width: 200px;
-    position: fixed;
-    top: 50%;
-  }
+
             
 a{
     color: #79471b;
-    
 }
 
+table, td, tr{
+    padding: 10px;
+    position: inherit;
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: #ffffff;
+    text-align: center;
+
+}
