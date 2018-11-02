@@ -112,11 +112,16 @@ a{
 }
 
 table, td, tr{
-    padding: 10px;
-    position: inherit;
+    padding: 5px;
     border: 1px solid white;
-    border-collapse: collapse;
     color: #ffffff;
-    text-align: center;
 
 }
+
+table{
+    position: center;
+    text-align: center;
+    margin: 1rem auto;
+
+}
+
