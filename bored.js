@@ -6,7 +6,9 @@ function aciticiti () {
      'Fully listen to a music album','Go to the library and pick up a random book','Play with action figures'
     ,'Watch a nature documentary','Watch and old Disney movie','Take a walk','Talk with your parent/s'
     ,'Eat','Cook','Draw a dragon','Learn how to draw a kangaroo','Watch an old viral video','Call your grandparents.'
-    ,'Fix something','Just do it'];    
+    ,'Fix something','Just do it', 'Learn basic programming', 'Write a song','Breath deeply','Read about a foreign country',
+    'Make a paper airplane','Read our about page','Look at our "Catalog"','Look outside your window',
+    'Have a drink','Read a news article'];    
     var rand = myArray[Math.floor(Math.random() * myArray.length)];
     const elm = document.querySelector(".box");
     elm.textContent = rand

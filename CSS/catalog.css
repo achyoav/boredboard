@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+    position: relative;
+    min-height: calc(200vh);
+    background-color: #00452e;
+    border: 20px solid #79471b;
+    margin: 0;
+    font-family:'Indie Flower', cursive;
+}
+
+object {
+    width: 4rem;
+    display: block;
+    margin: 0 auto;
+    height: 4rem;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 4rem;
+    margin: 0.5rem auto;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+}
+
+
+p.box {
+    min-height: 6rem;
+    color: aqua;
+    text-align: center;
+    font-size: 4rem;
+    margin: 2rem auto;
+}
+
+h3{
+    margin: auto auto;
+    color: #00452e;
+    font-size: 1px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00452e;
+    font-size: 25px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #79471b;
+}
+
+li a.selected{
+    color: yellowgreen;
+  }
+
+li.right{
+    float: right;
+  }
+
+p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+
+}
+div.gallery {
+    margin: 5px;
+    border: 10px solid #79471b;
+    float: left;
+    width: 180px;
+    text-align: center;
+    margin: 10px;
+}
+
+div.gallery:hover {
+    border: 10px solid #9c8672;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #ffffff;
+}
