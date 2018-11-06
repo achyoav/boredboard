@@ -8,7 +8,10 @@ function aciticiti () {
     ,'Eat','Cook','Draw a dragon','Learn how to draw a kangaroo','Watch an old viral video','Call your grandparents.'
     ,'Fix something','Just do it', 'Learn basic programming', 'Write a song','Breath deeply','Read about a foreign country',
     'Make a paper airplane','Read our about page','Look at our "Catalog"','Look outside your window',
-    'Have a drink','Read a news article'];    
+    'Have a drink','Read a news article', 'Knit a scarf', 'Do a crossword puzzle', 'Play sudoku', 
+    'Play Monopoly', 'Bake a cake', 'Clean your house', 'Learn basic video editing', 'Do your laundry', 
+    'Clean your hard drive', 'Delete useless pictures from your phone', 'Tidy your room', 'Browse Reddit',
+    'Do the dishes', 'Read old fables'];    
     var rand = myArray[Math.floor(Math.random() * myArray.length)];
     const elm = document.querySelector(".box");
     elm.textContent = rand
