@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>BoredBoard - Passqord Reset</title>
-        <link rel="stylesheet" href="CSS/signin.css">
+        <title>BoredBoard - Sign-Up</title>
+        <link rel="stylesheet" href="../CSS/signup.css">
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
         <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
@@ -27,38 +27,62 @@
         <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-        <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="signup.html">Sign-Up</a></li>
-                <li><a href="submit.html">Submit</a></li>
-                <li><a href="catalog.html">Catalog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li class= right><a href="signin.html">Sign-In</a></li>
-              </ul>
-              <h3>בס"ד</h3>
-              <h1>Password/Username Reset</h1>
-<form>
-   
 
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class = selected href="signup.html">Sign-Up</a></li>
+        <li><a href="submit.html">Submit</a></li>
+        <li><a href="catalog.html">Catalog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="right"><a href="signin.html">Sign-In</a></li>
+    </ul>
+
+    <h1>Sign-Up</h1>
+    <h2>If you want to submit an activity to our database, you have to sign-up!</h2>
     <div class="container">
-      <label for="uname"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="uname" required>
-      <label for="security"> <b>Security Questions </b> </label> <br>
+        <hr>
+        <label for="email"><b>Email *</b></label> 
+        <input type="text" required placeholder="Enter Email" name="email" required>
+
+        <label for="uname"><b>Username *</b></label>
+        <input type="text" required placeholder="Enter Username" name="uname" required>
+
+        <label for="nname"><b>Nickname</b></label>
+        <input type="text" placeholder="Enter Nickname" name="nname" >
+        
+        <label for="email"><b>Confirm Email *</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+      
+        <label for="psw"><b>Password *</b></label>
+        <input type="password" required placeholder="Enter Password" name="psw" required aria-autocomplete="list">
+      
+        <label for="psw-repeat"><b>Repeat Password *</b></label>
+        <input type="password" required placeholder="Repeat Password" name="psw-repeat" required>
+        
+        <label for="gender"><b>Gender</b> </br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other <br>
+
+        <label for="dob"><b>Date of Birth</b></label> <br>
+        <input type="date" name="dob" id="dob"> <br>
+
+        <label for="security"> <b>Security Questions </b> </label> <br>
         <select>
             <option disabled selected value="q"> Pick one </option>
             <option value="q1">What's your lucky number?</option>
             <option value="q2">What's the birth name of your grandmother?</option>
             <option value="q3">What's your favorite color?</option>
           </select>
-          <input type="text" name="security" id="security" placeholder="Repeat Password"> 
+            
+        <input type="text" name="security" id="security" placeholder="Repeat Password"> 
 
+        <div class="clearfix">
+            <button type="submit" class="signupbtn">Sign Up</button>
+        </div>
+        </div>
 
-      <button type="submit">Send</button>
-      
-    </div>
-
-    
-  </form>
-
+    <h3>בס"ד</h3>
 </body>
 </html>

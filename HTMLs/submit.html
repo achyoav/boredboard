@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>BoredBoard 1.0</title>
-    <link rel="stylesheet" href="CSS/index.css">
+    <title>BoredBoard</title>
+    <link rel="stylesheet" href="../CSS/submit.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
@@ -26,28 +26,36 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <script src="bored.js"></script>
 </head>
 
 <body>
         <ul>
-                <li><a class = selected href="index.html">Home</a></li>
-                <li><a href="signup.html">Sign-Up</a></li>
-                <li><a href="submit.html">Submit</a></li>
-                <li><a href="catalog.html">Catalog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li class= right><a href="signin.html">Sign-In</a></li>
-              </ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="signup.html">Sign-Up</a></li>
+            <li><a  class = selected href="submit.html">Submit</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class= right><a href="signin.html">Sign-In</a></li>
+        </ul>
 
     <div class="main">
-        <object data="BoredBoardLogo.svg" type="image/svg+xml"></object>
         <h3>בס"ד</h3>
-        <h1>Bored Board 1.0</h1>
-        <h2>Feeling bored? Press this button and a random activity you can do right now will show up!</h2>
-        <p class="box"></p>
-        <button name="subject" type="button" onclick="aciticiti()">I'm bored</button>
-        
+        <h1>Submit Ideas to Our Database</h1>
+    <div class="container">
+        <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
 
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="Idea"><b>Idea</b></label>
+    <input type="text" placeholder="Enter Your Idea" name="idea" required>
+  
+    <button type="submit">Sign-in</button>
+    </div>
+    <div class="container1">
+            <span class="psw"> <a href="preset.html">Forgot password/username?</a></span>
+          </div>
     </div>
 </body>
 
